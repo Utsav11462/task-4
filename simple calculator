@@ -1,0 +1,16 @@
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.7;
+contract calculator{
+    function sum(int a,int b) external pure returns(int c){
+        return a+b;
+    }
+    function sub(int a,int b) external pure returns(int c){
+        return a-b;
+    }
+    function multi(int a,int b) external pure returns(int c){
+        return a*b;
+    }
+    function divide(int a,int b) external pure returns(int c){
+        return a/b;
+    }
+}
